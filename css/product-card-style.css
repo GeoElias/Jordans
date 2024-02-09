@@ -80,10 +80,10 @@ body {
   .buy-btn {
     width: 150px;
     height: 40px;
-    background-color: red;
+    background-color: black;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
   }
