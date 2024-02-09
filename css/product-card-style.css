@@ -56,7 +56,9 @@ body {
   }
 
   .available-colors {
-    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
   }
 
   .available-colors span {
