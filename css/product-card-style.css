@@ -1,54 +1,54 @@
 body {
     background-color: black;
+    color: black;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-.container {
+.product-card {
     width: 800px;
     height: 500px;
     background-color: white;
     margin: 120px auto 0;
-    padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
 }
 
-.product-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
+.left-img-col {
+    flex: 0 0 auto;
 }
 
-.product-info {
-    padding: 0 20px;
+.right-info-col {
+    flex: 1 1 auto;
+    padding-left: 20px;
 }
 
-.product-heading {
+.product-card h3 {
     font-size: 32px;
-    color: black;
     margin-bottom: 15px;
+    color: black;
 }
 
-.product-subheading {
+.product-card h5 {
     font-size: 18px;
+    margin-top: 0;
     color: lightgray;
-    margin-bottom: 15px;
 }
 
-.product-description {
+.product-card p {
     font-size: 14px;
-    color: black;
     padding-left: 50px;
 }
 
 .available-colors {
     font-size: 14px;
-    color: black;
-    margin-top: 20px;
     padding: 20px;
+}
+
+.available-colors span {
+    display: inline-block;
 }
 
 .color-container {
@@ -59,16 +59,29 @@ body {
     margin-right: 10px;
 }
 
-.purchase {
+.black-color-container {
+    background-color: black;
+}
+
+.red-color-container {
+    background-color: red;
+}
+
+.white-color-container {
+    background-color: beige;
+}
+
+.price {
     margin-top: 20px;
 }
 
-.price-value {
+.price h4 {
     font-size: 32px;
+    margin: 0;
     color: black;
 }
 
-.button {
+.buy-btn {
     width: 150px;
     height: 40px;
     background-color: red;
@@ -80,7 +93,6 @@ body {
     margin-top: 20px;
 }
 
-.button:hover {
+.buy-btn:hover {
     background-color: darkred;
 }
-
