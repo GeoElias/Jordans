@@ -58,7 +58,7 @@ body {
   .available-colors {
     display: flex;
     justify-content: space-between;
-    padding: 10px
+    padding: 5px
   }
 
   .available-colors span {
@@ -98,4 +98,5 @@ body {
     border-radius: 14px;
     font-size: 13px;
     cursor: pointer;
+    margin-left: 20px;
   }
