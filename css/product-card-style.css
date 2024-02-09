@@ -23,12 +23,12 @@ body {
   }
 
   .left-img-col {
-    flex: 0;
+    flex: 2;
   }
 
   .left-img-col img {
-    width: 100%;
-    height: auto;
+    width: 120%;
+    height: 120px;
     object-fit: cover;
   }
 
