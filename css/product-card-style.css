@@ -28,8 +28,9 @@ body {
 
   .left-img-col img {
     width: 120%;
-    height: 120px;
+    height: 500px;
     object-fit: cover;
+    padding-left: 0px;
   }
 
   .right-info-col {
