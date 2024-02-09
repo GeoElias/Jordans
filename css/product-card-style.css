@@ -23,7 +23,7 @@ body {
   }
 
   .left-img-col {
-    flex: 2;
+    flex: 1;
   }
 
   .left-img-col img {
