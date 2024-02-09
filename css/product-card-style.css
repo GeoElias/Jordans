@@ -1,98 +1,90 @@
 body {
     background-color: black;
-    color: black;
+    color: lightgray;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-}
+  }
 
-.product-card {
+  .product-card {
     width: 800px;
-    height: 500px;
-    background-color: white;
     margin: 120px auto 0;
+    display: flex;
+    background-color: beige;
     border-radius: 20px;
     padding: 20px;
-    display: flex;
-}
+    box-sizing: border-box;
+  }
 
-.left-img-col {
-    flex: 0 0 auto;
-}
+  .left-img-col {
+    flex: 1;
+  }
 
-.right-info-col {
-    flex: 1 1 auto;
+  .left-img-col img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .right-info-col {
+    flex: 2;
     padding-left: 20px;
-}
+  }
 
-.product-card h3 {
+  .right-info-col h3 {
     font-size: 32px;
-    margin-bottom: 15px;
-    color: black;
-}
+    margin-bottom: 10px;
+  }
 
-.product-card h5 {
+  .right-info-col h5 {
     font-size: 18px;
-    margin-top: 0;
-    color: lightgray;
-}
+    margin-bottom: 10px;
+  }
 
-.product-card p {
+  .right-info-col p {
     font-size: 14px;
-    padding-left: 50px;
-}
+    line-height: 1.5;
+  }
 
-.available-colors {
-    font-size: 14px;
-    padding: 20px;
-}
+  .available-colors {
+    margin-top: 20px;
+  }
 
-.available-colors span {
+  .available-colors span {
     display: inline-block;
-}
-
-.color-container {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    display: inline-block;
     margin-right: 10px;
-}
+  }
 
-.black-color-container {
+  .black-color-container {
     background-color: black;
-}
+  }
 
-.red-color-container {
+  .red-color-container {
     background-color: red;
-}
+  }
 
-.white-color-container {
-    background-color: beige;
-}
+  .white-color-container {
+    background-color: white;
+  }
 
-.price {
+  .price {
     margin-top: 20px;
-}
+  }
 
-.price h4 {
+  .price h4 {
     font-size: 32px;
-    margin: 0;
-    color: black;
-}
+  }
 
-.buy-btn {
+  .buy-btn {
     width: 150px;
     height: 40px;
     background-color: red;
     color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     font-size: 16px;
-    margin-top: 20px;
-}
-
-.buy-btn:hover {
-    background-color: darkred;
-}
+    cursor: pointer;
+  }
