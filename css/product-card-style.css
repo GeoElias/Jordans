@@ -23,7 +23,7 @@ body {
   }
 
   .left-img-col {
-    flex: 1;
+    flex: 0;
   }
 
   .left-img-col img {
@@ -34,7 +34,7 @@ body {
 
   .right-info-col {
     flex: 2;
-    padding-left: 0px;
+    padding-left: 20px;
   }
 
   .right-info-col h3 {
